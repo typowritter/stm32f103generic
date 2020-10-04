@@ -39,6 +39,7 @@ C_SOURCES =  \
 User/src/main.c \
 User/src/stm32f10x_it.c \
 User/src/bsp_tty.c \
+User/src/bsp_led.c \
 Libraries/CMSIS/system_stm32f10x.c \
 Libraries/CMSIS/core_cm3.c \
 Libraries/FWlib/src/stm32f10x_wwdg.c \

@@ -32,13 +32,13 @@ extern char STRBUF[READSTR_MAX_BUFSIZE];
     do {\
         sprintf(STRBUF, __VA_ARGS__); \
         putstr(STRBUF);\
-    }while(0)
+    } while(0)
 
 #define tty_scan(...) \
     do {\
         readstr(STRBUF, READSTR_MAX_BUFSIZE);\
         sscanf(STRBUF, __VA_ARGS__); \
-    }while(0)
+    } while(0)
 
 // USART1
 #define  DEBUG_USARTx                   USART1
